@@ -4,7 +4,7 @@ from secrets import token_urlsafe
 from faker import Faker
 from telebot import TeleBot, types
 
-TOKEN = '6148430388:AAGxC97yhlWVDurfRlDx7QLhN6bFrjBVLj4'
+TOKEN = '6148430388:AAGxC97yhlWVDurfRlDx7QLhN6bFrjBVLj'
 bot = TeleBot(TOKEN, parse_mode='html')
 faker = Faker('ru_RU') 
 
